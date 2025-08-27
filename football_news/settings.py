@@ -14,7 +14,6 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
-
 # Load environment variables from .env file
 load_dotenv()
 
@@ -32,7 +31,7 @@ SECRET_KEY = 'django-insecure-@cj#544=3)o%=)c(d$j7xwb24+$815$j@ghxq25@(7!1!k-o^o
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "rafasyah-miyauchi-footballnews.pbp.cs.ui.ac.id"]
 
 
 # Application definition
